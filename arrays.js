@@ -18,7 +18,11 @@ function destructivelyAddElementToEndOfArrayy(chocolateBars,candyString) {
 function accessElementInArray(array, index) {
   return array[index];
 }
-function destructivelyRemoveElementFromBeginningOfArray(array) {
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift();
+  return chocolateBars;
+}
+function destructivelyAddElementToEndOfArray(chocolateBars) {
+  chocolateBars.push(candyString);
   return chocolateBars;
 }
