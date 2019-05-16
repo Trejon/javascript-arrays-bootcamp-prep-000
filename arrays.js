@@ -7,5 +7,5 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars,candyString) {
  return chocolateBars
 }
 function addElementToEndOfArray(chocolateBars,candyString) {
-  
+  chocolateBars.push("candyString")
 }
