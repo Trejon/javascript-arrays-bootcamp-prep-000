@@ -11,7 +11,10 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars,candyString) {
 function addElementToEndOfArray(chocolateBars,candyString) {
   return [...chocolateBars,candyString];
 }
-function destructivelyAddElementToEndOfArrayy(chocolateBars,candyString) {
+function destructivelyAddElementToEndOfArrayy(chocolateBars,candyString) { 
   choclateBars.push(candyString);
   return chocolateBars;
+}
+function accessElementInArray(array, index) {
+  return array[index];
 }
