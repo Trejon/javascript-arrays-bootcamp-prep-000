@@ -20,11 +20,3 @@ function accessElementInArray(array, index) {
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift();
   return chocolateBars;
-}
-function destructivelyAddElementToEndOfArray(chocolateBars) {
-  chocolateBars.push(candyString);
-  return chocolateBars;
-}
-function destructivelyAddElementToEndOfArray(chocolateBars) {
-  
-}
