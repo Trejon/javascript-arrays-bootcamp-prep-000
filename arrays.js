@@ -19,6 +19,6 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
-  chocolateBare.shift();
+  chocolateBare.unshift();
   return chocolateBars;
 }
