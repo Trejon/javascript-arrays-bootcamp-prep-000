@@ -3,13 +3,13 @@ function addElementToBeginningOfArray(chocolateBars,candyString) {
   return ["foo", ...chocolateBars];
 }
 function destructivelyAddElementToBeginningOfArray(chocolateBars,candyString) {
- chocolateBars.unshift("foo")
- return chocolateBars
+ chocolateBars.unshift("foo");
+ return chocolateBars;
 }
 function addElementToEndOfArray(chocolateBars,candyString) {
-  return [...chocolateBars,candyString]
+  return [...chocolateBars,candyString];
 }
-function destructivelyAddElementToEndOfArrayy(chocolateBars,candyString) {
-  choclateBars.push(candyString)
-  return chocolateBars
+function destructivelyAddElementToEndOfArrayy(chocolatears,candyString) {
+  choclateBars.push(candyString);
+  return chocolateBars;
 }
